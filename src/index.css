@@ -3,5 +3,8 @@
 @tailwind utilities;
 
 .btn-primary{
-    @apply  font-medium  transition duration-200  shadow-md  md:mb-0  px-4 py-2 md:px-8 md:py-3 m-2 text-lg rounded-lg border-transparent border-2  text-white hover:bg-green-500 bg-violet-500
+    @apply  font-medium  transition duration-200  shadow-md  md:mb-0  px-4 py-2 md:px-8 md:py-3 m-2 text-lg rounded-lg border-transparent border-2  text-white hover:bg-violet-500 bg-sky-500
+  }
+  .product-container{
+    @apply grid gap-8  mb-8 md:grid-cols-2 lg:grid-cols-4
   }
