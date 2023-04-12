@@ -1,6 +1,6 @@
 import React, { useEffect, useState} from 'react';
 import './Home.css'
-import image from '../../assets/All Images/P3OLGJ1 copy 1.png'
+import image from '../../assets/All Images/AhsanHabib.png'
 import JobType from '../jobType/JobType';
 
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
                     <br /><br />
                     <button className='btn-primary'>Get Started</button>
                 </div>
-                <img src={image} alt="Header Image" />
+                <img className='ms-10' src={image} alt="Header Image" />
             </section>
             <>
                 <h3 className='mt-8 text-center text-5xl font-bold'>Job Category List</h3>
@@ -32,7 +32,9 @@ const Home = () => {
                 </div>
             </>
             <div>
-                
+                <h3 className='text-5xl text-center font-bold'>
+                Featured Jobs
+                </h3>
             </div>
         </>
     );
